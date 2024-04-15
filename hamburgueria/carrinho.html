@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lista de Compras</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/carrinho.css" />">
+  <script src="./js/main.js"></script>
+</head>
+
+<body>
+  <nav class="menu background-preto margem-interna">
+    <div class="truculenta-100">LC</div>
+  </nav>
+
+  <section class="container">
+    <h3 class="truculenta-100 titulo margem-interna">Lista de Compras</h3>
+
+    <div class="centro margem-interna">
+      <label for="item" class="truculenta-100 label-input"> Item: </label>
+      <input type="text" id="item" name="item" class="caixa-texto" />
+
+      <label for="valor" class="truculenta-100 label-input"> Valor: </label>
+      <input type="number" id="valor" name="valor" class="caixa-texto" />
+
+      <button type="button" class="truculenta-100 background-preto btn" onclick="Adicionar()">
+        Adicionar
+      </button>
+
+      <div class="margem-interna">
+        <table class="centro tabela truculenta-100">
+          <thead>
+            <tr>
+              <th>Itens</th>
+              <th>Valores</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+          <tfoot id="table-footer"></tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code&Grill | Lanches</title>
+    <link rel="shortcut icon" type="image/png" href="./img/L-_1__108x108_16x16.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <script async src="./js/carrinho.js"></script>
+
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-nav container">
+        <ul class="header-list-container">
+          <img class="imagem-logo-header" src="./img/L (1).png" alt="logoXX"> <!--Estilizar-->
+          <li class="nav-item">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="lanches.html">Lanches</a>  
+          </li>
+          <li class="nav-item">
+            <a href="sobre.html">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+    
+    <img class="imagem-principal" src="./img/PRINCIPAL.png" alt="FOTO PRINCIPAL" >
+    
+    <main class="main-section">
+      <!-- Lanches -->
+      <section class="container normal-section">
+        <h2 class="section-title">Lanches</h2>
+
+        <div class="product-container">
+          <div class="lanche-product">
+            <img class="product-image" src="./img/xtudo.png" alt="X-Tudo">
+            <strong class="product-title">X-Tudo</strong>
+            <div class="product-price-container">
+              <span class="product-price">R$30,00</span>
+              <button class="button-hover-backgound" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="lanche-product">
+            <img class="product-image" src="./img/xbacon.png" alt="X-Bacon">
+            <strong class="product-title">X-Bacon</strong>
+            <div class="product-price-container">
+              <span class="product-price">R$28,00</span>
+              <button class="button-hover-backgound" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="lanche-product">
+            <img class="product-image" src="./img/xfrango.png" alt="X-Frango">
+            <strong class="product-title">X-Frango</strong>
+            <div class="product-price-container">
+              <span class="product-price">R$26,00</span>
+              <button class="button-hover-backgound" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="lanche-product">
+            <img class="product-image" src="./img/xcalabresa.png" alt="X-Calabresa">
+            <strong class="product-title">X-Calabresa</strong>
+            <div class="product-price-container">
+              <span class="product-price">R$25,00</span>
+              <button class="button-hover-backgound" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carrinho -->
+      <section class="container normal-section">
+        <h2 class="section-title">Carrinho</h2>
+
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th class="table-head-item first-col">Item</th>
+              <th class="table-head-item second-col">Preço</th>
+              <th class="table-head-item third-col">Quantidade</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <!-- <tr class="cart-product">
+              <td class="product-identification">
+                <img class="cart-product-image" src="img/xtudo.jpg" alt="X-Tudo">
+                <strong class="cart-product-title">X-Tudo</strong>
+              </td>
+              <td>
+                <span class="cart-product-price">R$30,00</span>
+              </td>
+              <td>
+                <input class="product-qtd-input" type="number" value="1" min="0">
+                <button class="remove-product-button" type="button">Remover</button>
+              </td>
+            </tr>
+            <tr class="cart-product">
+              <td class="product-identification">
+                <img class="cart-product-image" src="img/xtudo.jpg" alt="X-Bacon">
+                <strong class="cart-product-title">X-Bacon</strong>
+              </td>
+              <td>
+                <span class="cart-product-price">R$28,00</span>
+              </td>
+              <td>
+                <input class="product-qtd-input" type="number" value="1" min="0">
+                <button class="remove-product-button" type="button">Remover</button>
+              </td>
+            </tr> -->
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3" class="cart-total-container">
+                <strong>Total</strong>
+                <span>R$0,00</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <button class="purchase-button finalizacompra" type="button">Finalizar compra</button>
+      </section>
+    </main>
+  
+    <footer class="main-footer">
+      <div class="container main-footer-container">        
+        <p>Obrigado por acessar!</p>
+        <p>Todos os direitos reservados à LMS Desenvolvimento.</p>  
+      </div>
+    </footer>
+
+  </body>
+</html>
